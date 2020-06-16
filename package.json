@@ -1,0 +1,26 @@
+{
+  "name": "create-ui-app",
+  "version": "1.0.0",
+  "description": "Create React or Vue application with barebones webpack config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cua": "cli.js",
+    "create-ui-app": "cli.js"
+  },
+  "files": [
+    "sao.js",
+    "cli.js",
+    "template"
+  ],
+  "author": "dcasro github.com/dcasro",
+  "license": "ISC",
+  "dependencies": {
+    "cac": "^6.5.10",
+    "sao": "^1.7.1",
+    "superb": "^4.0.0",
+    "update-notifier": "^4.1.0"
+  }
+}
