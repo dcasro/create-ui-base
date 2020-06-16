@@ -1,5 +1,3 @@
-const superb = require("superb");
-
 module.exports = {
   prompts: [
     {

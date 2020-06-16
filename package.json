@@ -15,12 +15,15 @@
     "cli.js",
     "template"
   ],
+  "keywords": [
+    "react",
+    "vue",
+    "webpack"
+  ],
   "author": "dcasro github.com/dcasro",
   "license": "ISC",
   "dependencies": {
     "cac": "^6.5.10",
-    "sao": "^1.7.1",
-    "superb": "^4.0.0",
-    "update-notifier": "^4.1.0"
+    "sao": "^1.7.1"
   }
 }
