@@ -1,5 +1,5 @@
 {
-  "name": "create-ui-app",
+  "name": "create-ui-base",
   "version": "1.0.0",
   "description": "Create React or Vue application with barebones webpack config",
   "main": "index.js",
@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "cua": "cli.js",
-    "create-ui-app": "cli.js"
+    "cub": "cli.js",
+    "create-ui-base": "cli.js"
   },
   "files": [
     "sao.js",

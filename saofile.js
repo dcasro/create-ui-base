@@ -59,7 +59,6 @@ module.exports = {
   },
   async completed() {
     this.gitInit();
-    console.log(this);
     await this.npmInstall();
   },
 };
