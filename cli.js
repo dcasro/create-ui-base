@@ -12,7 +12,12 @@ cli
     const targetPath = path.resolve(dir);
     const generator = path.join(__dirname);
     console.log(`> Generating project in ${targetPath}`);
-    sao({ generator: generator, outDir: targetPath }).run();
+    sao({ generator: generator, outDir: targetPath })
+      .run()
+      .catch((err) => {
+        console.trace(err);
+        process.exit(1);
+      });
   });
 
 cli.parse();
