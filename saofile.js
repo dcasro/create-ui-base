@@ -3,10 +3,12 @@ module.exports = {
     {
       name: "name",
       message: `What's the name of your new project`,
+      default: ":folderName:",
     },
     {
       name: "description",
       message: "How would your describe your UI project",
+      default: `My UI project`,
     },
     {
       name: "framework",
