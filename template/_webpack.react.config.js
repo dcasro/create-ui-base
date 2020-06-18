@@ -2,6 +2,10 @@ const path = require("path");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: ["./app.jsx"],
+  output: {
+    filename: "bundle.js",
+    path: path.resolve(__dirname, "dist"),
+  },
   devtool: "source-map",
   module: {
     rules: [

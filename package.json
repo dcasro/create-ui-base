@@ -1,6 +1,6 @@
 {
   "name": "create-ui-base",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "Create React or Vue application with barebones webpack config",
   "main": "index.js",
   "scripts": {
