@@ -34,7 +34,7 @@ module.exports = {
         },
         {
           type: "remove",
-          files: "_*.json",
+          files: ["_*.json", "_*.*.config.js", "*_src"],
         },
       ];
     }
@@ -53,7 +53,7 @@ module.exports = {
       },
       {
         type: "remove",
-        files: ["_*.json", "_*.config.js", "*_src"],
+        files: ["_*.json", "_*.*.config.js", "*_src"],
       },
     ];
   },
