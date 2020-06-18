@@ -1,6 +1,6 @@
 {
   "name": "create-ui-base",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Create React or Vue application with barebones webpack config",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "create-ui-base": "cli.js"
   },
   "files": [
-    "sao.js",
+    "saofile.js",
     "cli.js",
     "template"
   ],

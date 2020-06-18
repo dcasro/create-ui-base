@@ -9,7 +9,7 @@ cli
   // Simply omit the command name, just brackets
   .command("<dir>", "Create UI Application")
   .action((dir) => {
-    const targetPath = path.resolve(dir);
+    const targetPath = path.resolve(process.argv[2] || ".");
     const generator = path.join(__dirname);
     console.log(`> Generating project in ${targetPath}`);
     sao({ generator: generator, outDir: targetPath })
