@@ -1,6 +1,6 @@
 {
-  "name": "<%= (typeof name != 'undefined' ? name : '') %>",
-  "description": "<%= (typeof description != 'undefined' ? description : '') %>",
+  "name": "<%= name %>",
+  "description": "<%= description %>",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
