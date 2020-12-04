@@ -2,7 +2,7 @@
 
 Tool to create either a React or Vue application with only the minimal webpack configurations to get up and running
 
-### Installing
+### Installation
 
 ```
 npm install -g create-ui-base
